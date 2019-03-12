@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">Your first name is:   [[${employee.firstname}]].<br />
+    Your last name is:  [[${employee.lastname}]].<br />
+    Your Date of Birth is:  [[${employee.DOB}]].<br />
+    And your Social Security Number is : [[${employee.SSN}]] and the year it came out because you were born on was [[${employee.DOB}]].<br />
+</p>
+</body>
+</html>
